@@ -14,6 +14,20 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    
+    BuyNowViewController *buyVC = [[BuyNowViewController alloc] init];
+    buyVC.title = @"Pinterest UI";
+    
+    UINavigationController *myNav = [[UINavigationController alloc] initWithRootViewController:buyVC];
+    
+    self.window.rootViewController = myNav;
+    
+    UINavigationBar *navigationBar = myNav.navigationBar;
+    navigationBar.barTintColor = [UIColor whiteColor];
+    navigationBar.barStyle = UIBarStyleDefault;
+
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

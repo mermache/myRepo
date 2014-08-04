@@ -19,6 +19,16 @@
 		650BF7BD1990325500E37991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650BF7A51990325400E37991 /* UIKit.framework */; };
 		650BF7C51990325500E37991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 650BF7C31990325500E37991 /* InfoPlist.strings */; };
 		650BF7C71990325500E37991 /* LoginWithPaypalAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7C61990325500E37991 /* LoginWithPaypalAppTests.m */; };
+		650BF7D2199032FA00E37991 /* BuyNowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7D1199032FA00E37991 /* BuyNowViewController.m */; };
+		650BF7D51990334F00E37991 /* PayPalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7D41990334F00E37991 /* PayPalViewController.m */; };
+		650BF7D8199033BB00E37991 /* LoginURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7D7199033BB00E37991 /* LoginURLViewController.m */; };
+		650BF7DB199033F800E37991 /* UserIdentityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7DA199033F800E37991 /* UserIdentityViewController.m */; };
+		650BF7DE1990344900E37991 /* CheckReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7DD1990344900E37991 /* CheckReachability.m */; };
+		650BF7E11990348500E37991 /* PayPalGuestLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7E01990348500E37991 /* PayPalGuestLoginViewController.m */; };
+		650BF7E4199034CE00E37991 /* RepeatUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 650BF7E3199034CE00E37991 /* RepeatUserViewController.m */; };
+		650BF7E81990361D00E37991 /* RBOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BF7E51990361D00E37991 /* RBOff.png */; };
+		650BF7E91990361D00E37991 /* RBOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BF7E61990361D00E37991 /* RBOn.png */; };
+		650BF7EA1990361D00E37991 /* buy_now_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 650BF7E71990361D00E37991 /* buy_now_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,23 @@
 		650BF7C21990325500E37991 /* LoginWithPaypalAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoginWithPaypalAppTests-Info.plist"; sourceTree = "<group>"; };
 		650BF7C41990325500E37991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		650BF7C61990325500E37991 /* LoginWithPaypalAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginWithPaypalAppTests.m; sourceTree = "<group>"; };
+		650BF7D0199032FA00E37991 /* BuyNowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyNowViewController.h; sourceTree = "<group>"; };
+		650BF7D1199032FA00E37991 /* BuyNowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyNowViewController.m; sourceTree = "<group>"; };
+		650BF7D31990334F00E37991 /* PayPalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalViewController.h; sourceTree = "<group>"; };
+		650BF7D41990334F00E37991 /* PayPalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPalViewController.m; sourceTree = "<group>"; };
+		650BF7D6199033BB00E37991 /* LoginURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginURLViewController.h; sourceTree = "<group>"; };
+		650BF7D7199033BB00E37991 /* LoginURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginURLViewController.m; sourceTree = "<group>"; };
+		650BF7D9199033F800E37991 /* UserIdentityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIdentityViewController.h; sourceTree = "<group>"; };
+		650BF7DA199033F800E37991 /* UserIdentityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserIdentityViewController.m; sourceTree = "<group>"; };
+		650BF7DC1990344900E37991 /* CheckReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckReachability.h; sourceTree = "<group>"; };
+		650BF7DD1990344900E37991 /* CheckReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckReachability.m; sourceTree = "<group>"; };
+		650BF7DF1990348500E37991 /* PayPalGuestLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayPalGuestLoginViewController.h; sourceTree = "<group>"; };
+		650BF7E01990348500E37991 /* PayPalGuestLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayPalGuestLoginViewController.m; sourceTree = "<group>"; };
+		650BF7E2199034CE00E37991 /* RepeatUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatUserViewController.h; sourceTree = "<group>"; };
+		650BF7E3199034CE00E37991 /* RepeatUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatUserViewController.m; sourceTree = "<group>"; };
+		650BF7E51990361D00E37991 /* RBOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RBOff.png; sourceTree = "<group>"; };
+		650BF7E61990361D00E37991 /* RBOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RBOn.png; sourceTree = "<group>"; };
+		650BF7E71990361D00E37991 /* buy_now_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buy_now_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +136,23 @@
 			children = (
 				650BF7B01990325500E37991 /* AppDelegate.h */,
 				650BF7B11990325500E37991 /* AppDelegate.m */,
+				650BF7D0199032FA00E37991 /* BuyNowViewController.h */,
+				650BF7D1199032FA00E37991 /* BuyNowViewController.m */,
+				650BF7D31990334F00E37991 /* PayPalViewController.h */,
+				650BF7D41990334F00E37991 /* PayPalViewController.m */,
+				650BF7D6199033BB00E37991 /* LoginURLViewController.h */,
+				650BF7D7199033BB00E37991 /* LoginURLViewController.m */,
+				650BF7D9199033F800E37991 /* UserIdentityViewController.h */,
+				650BF7DA199033F800E37991 /* UserIdentityViewController.m */,
+				650BF7DC1990344900E37991 /* CheckReachability.h */,
+				650BF7DD1990344900E37991 /* CheckReachability.m */,
+				650BF7DF1990348500E37991 /* PayPalGuestLoginViewController.h */,
+				650BF7E01990348500E37991 /* PayPalGuestLoginViewController.m */,
+				650BF7E2199034CE00E37991 /* RepeatUserViewController.h */,
+				650BF7E3199034CE00E37991 /* RepeatUserViewController.m */,
+				650BF7E51990361D00E37991 /* RBOff.png */,
+				650BF7E61990361D00E37991 /* RBOn.png */,
+				650BF7E71990361D00E37991 /* buy_now_button.png */,
 				650BF7B31990325500E37991 /* Images.xcassets */,
 				650BF7A81990325500E37991 /* Supporting Files */,
 			);
@@ -219,6 +263,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650BF7E91990361D00E37991 /* RBOn.png in Resources */,
+				650BF7EA1990361D00E37991 /* buy_now_button.png in Resources */,
+				650BF7E81990361D00E37991 /* RBOff.png in Resources */,
 				650BF7AC1990325500E37991 /* InfoPlist.strings in Resources */,
 				650BF7B41990325500E37991 /* Images.xcassets in Resources */,
 			);
@@ -239,8 +286,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				650BF7D8199033BB00E37991 /* LoginURLViewController.m in Sources */,
+				650BF7DB199033F800E37991 /* UserIdentityViewController.m in Sources */,
+				650BF7D2199032FA00E37991 /* BuyNowViewController.m in Sources */,
+				650BF7DE1990344900E37991 /* CheckReachability.m in Sources */,
+				650BF7E11990348500E37991 /* PayPalGuestLoginViewController.m in Sources */,
 				650BF7B21990325500E37991 /* AppDelegate.m in Sources */,
 				650BF7AE1990325500E37991 /* main.m in Sources */,
+				650BF7E4199034CE00E37991 /* RepeatUserViewController.m in Sources */,
+				650BF7D51990334F00E37991 /* PayPalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

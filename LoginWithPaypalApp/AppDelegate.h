@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayPalViewController.h"
+#import "BuyNowViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
